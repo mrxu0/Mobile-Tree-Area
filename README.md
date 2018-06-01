@@ -1,7 +1,14 @@
-# Mobile-Tree-Area
+Mobile-Tree-Area
+================
+
 手机上的地区控件，树控件
- 
+
+**效果图**
+
+![效果图](https://img-blog.csdn.net/20180601104708627?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3NDc5OTQ2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
 使用 步骤：
+------
 
 **1.引入文件**
 
@@ -18,7 +25,7 @@
 ```
 上面的用来展示你选中的内容，下面的用来承载选中内容的ID
 
-**3.生成实例**
+**3.生成实例**	
 
 ```
 new Location({
