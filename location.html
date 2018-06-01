@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"></link>
+    <title>地区控件</title>
+    <script src="LAreaData1.js"></script>
+    <link rel="stylesheet" href="plugin/Mobile-Tree-Area.css">
+    <script src="plugin/Mobile-Tree-Area.js"></script>
+</head>
+<body>
+<input type="text" id="name" readonly>
+<input type="hidden" id="id" readonly>
+
+<script>
+    new Location({
+        name:"name",
+        id:"id",
+        tree:3,
+        data:LAreaData
+    });
+</script>
+</body>
+</html>
