@@ -5,7 +5,7 @@ Mobile-Tree-Area
 
 **效果图**
 
-![效果图](https://img-blog.csdn.net/20180601104708627?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3NDc5OTQ2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![效果图](./area.gif)
 
 使用 步骤：
 ------

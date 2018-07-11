@@ -6,7 +6,7 @@ function Location(params){
     this.tree=params.tree||3;
     this.InitAndChangeData();
     this.clickElement();
-};
+}
 Location.prototype.InitAndChangeData=function (level) {
 
     if(!document.getElementById("local-panel-layer")){
@@ -58,10 +58,12 @@ Location.prototype.clickElement=function(){
         }
     });
     localPanelBodyList.addEventListener("click",function (e){
+        //因为我的单击事件是加在了DIV上，所以没有LI的地方会点到ui导致报错，所以要判断一下单机的是否是li
         if(e.target.tagName=="UL"||e.target.tagName=="ul"){
             return false;
         }
-
+        //判断当前层级是否超过了用户设定的层级，如果等于就直接出结果，不等于就接着执行。
+        //如果用户添加的层级大于数据本身的层级也直接出结果
         if(e.target.getAttribute("level")<that.tree&&that.data[e.target.getAttribute("index")].child){
             that.createLi(e.target.getAttribute("level"),e);
             that.InitAndChangeData(parseInt(e.target.getAttribute("level"))+1);
