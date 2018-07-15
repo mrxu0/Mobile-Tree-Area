@@ -1,0 +1,20 @@
+{
+  "name": "mobile-tree-area",
+  "version": "1.0.0",
+  "description": "手机地区插件（不局限于只使用地区）",
+  "main": "lib/Mobile-Tree-Area.js",
+  "style": "lib/Mobile-Tree-Area.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrxu0/Mobile-Tree-Area.git"
+  },
+  "author": "MrXu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrxu0/Mobile-Tree-Area/issues"
+  },
+  "homepage": "https://github.com/mrxu0/Mobile-Tree-Area#readme"
+}
