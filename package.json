@@ -1,6 +1,6 @@
 {
   "name": "mobile-tree-area",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "手机地区插件（不局限于只使用地区）",
   "main": "lib/Mobile-Tree-Area.js",
   "style": "lib/Mobile-Tree-Area.css",
