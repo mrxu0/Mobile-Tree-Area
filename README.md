@@ -16,19 +16,6 @@ Mobile-Tree-Area
 
 ## 使用步骤：
 
-### 使用打包工具:
-
-```
-import Loction from 'mobile-tree-area';
-import 'mobile-tree-area/lib/Mobile-Tree-Area.css';
-new Location({
-    id:"id",//存放选中内容的ID的容器的id，可不填
-    name:"name",//展示选中内容的id
-    tree:3,//你想让用户选到几层，可不填，不填默认为3
-    data:LAreaData//初始化数据格式为：[{id:1,name:2,child[{id:1,name:2}]},....]
-});
-```
-
 ### 不依赖任何打包使用方法:
 
 **1.引入文件**

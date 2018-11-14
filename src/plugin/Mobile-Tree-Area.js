@@ -108,7 +108,7 @@ Location.prototype.InitEvent = function () {
     }
 
     function CloseClick () {
-        this.$loginBtn.style.display="none";
+        this.$layer.style.display="none";
         this.$tabs.innerHTML = '<li level="1" class="cur"><span>请选择</span></li>';
         this.data = this.defaultData;
         this.BornData();
@@ -179,5 +179,3 @@ Location.prototype.createLi=function(level,e){
     }
     this.data = data;
 };
-
-module.exports = Location
